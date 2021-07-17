@@ -4,88 +4,16 @@
 --forest-green-crayola: #57a773ff;
 --independence: #484d6dff; */
 
+.board {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .square {
   width: 20rem;
   height: 4rem;
   padding: 0.1rem;
   margin: 0 1rem;
   line-height: 4rem;
-}
-
-.blueColor {
-  background-color: 	#44cef6;
-}
-.title {
-  text-align: center;
-  /* background-color: #FFFFF2; */
-}
-
-.turquoiseColor {
-  background-color: #41d3bd;
-}
-
-.turquoiseColor1 {
-  background-color: #5AD8C5;
-}
-.turquoiseColor2 {
-  background-color: #65DBC8;
-}
-.turquoiseColor3 {
-  background-color: #6FDDCB;
-}
-.turquoiseColor4 {
-  background-color: #81E2D0;
-}
-.turquoiseColor5 {
-  background-color: #93E6D5;
-}
-
-.msuColor {
-  background-color: #08211E;
-}
-.msuColor1 {
-  background-color: #0E332E;
-}
-.msuColor2 {
-  background-color: #103631;
-}
-.msuColor3 {
-  background-color: #123833;
-}
-.msuColor4 {
-  background-color: #163D37;
-}
-.msuColor5 {
-  background-color: #1E4740;
-}
-.msuColor6 {
-  background-color: #2E5A52;
-}
-.msuColor7 {
-  background-color: #4C7269;
-}
-
-.emerald {
-  background-color: #5AC167;
-}
-.emerald1 {
-  background-color: #63D471;
-}
-.emerald2 {
-  background-color: #6DD77A;
-}
-.emerald3 {
-  background-color: #72D97F;
-}
-.emerald4 {
-  background-color: #77DA83;
-}
-.emerald5 {
-  background-color: #8ADF95;
-}
-.emerald6 {
-  background-color: #9EE5A7;
-}
-.emerald7 {
-  background-color: #B1EAB8;
 }
