@@ -1,0 +1,10 @@
+.square {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.1rem;
+  margin: 0 1rem;
+}
+
+.blueColor {
+  background-color: 	#44cef6;
+}

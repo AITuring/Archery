@@ -3,7 +3,10 @@ import './color.css';
 
 const Color = () => {
     return (
-        <div>111</div>
+        <div className="board">
+          <div className="square blueColor">#44cef6</div>
+          <div className="square blueColor">#44cef6</div>
+        </div>
     )
 }
 
