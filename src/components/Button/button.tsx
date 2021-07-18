@@ -13,7 +13,7 @@ const Button: FC<ButtonProps> = (props) => {
   } = props;
 
   // btn btn-lg btn-primary
-  const cls = classNames('btn', {
+  const cls = classNames('btn', 'bg-gray-400', {
     [`btn-${btnType}`]: btnType,
     [`btn-${size}`]: size,
     'disabled': disabled,
