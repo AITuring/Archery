@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import classNames from 'classnames';
 import { ButtonProps, ButtonSize, ButtonType } from './type';
+import './button.css';
 
 const Button: FC<ButtonProps> = (props) => {
   const {
@@ -13,7 +14,7 @@ const Button: FC<ButtonProps> = (props) => {
   } = props;
 
   // btn btn-lg btn-primary
-  const cls = classNames('btn', 'bg-gray-400', {
+  const cls = classNames('btn', {
     [`btn-${btnType}`]: btnType,
     [`btn-${size}`]: size,
     'disabled': disabled,
