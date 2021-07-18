@@ -13,6 +13,12 @@
   }
 }
 
+@layer components {
+  .btn {
+    @apply bg-gray-500 text-blue-500
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
