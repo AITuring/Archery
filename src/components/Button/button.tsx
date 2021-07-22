@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import classNames from 'classnames';
 import { ButtonProps, ButtonSize, ButtonType } from './type';
-import './button.css';
+import './style.less';
 
 const Button: FC<ButtonProps> = (props) => {
   const {

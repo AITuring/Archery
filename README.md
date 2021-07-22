@@ -15,13 +15,13 @@
 | |____index.tsx
 | |____App.tsx
 | |____styles
-| | |____variables.scss(变量和可配置设置)
-| | |____mixins.scss(全局mixins)
-| | |____function.scss
+| | |____ _variables.less(变量和可配置设置)
+| | |____ _mixins.less(全局mixins)
+| | |____ _function.less
 | |____components
 | | |____Button
 | | | |____button.test.tsx
-| | | |____style.scss(组件单独样式)
+| | | |____style.less(组件单独样式)
 | | | |____button.tsx
 | | |____...
 ```
