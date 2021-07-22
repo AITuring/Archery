@@ -1,23 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  :root {
-    --color-primary: #0EA5E9;
-    --color-secondary: #9CA3AF;
-    --color-success: #22C55E;
-    --color-warning: #FB923C;
-    --color-danger: #EF4444;
-    --color-link: #38BDF8;
-  }
+:root {
+  --color-primary: #0EA5E9;
+  --color-secondary: #9CA3AF;
+  --color-success: #22C55E;
+  --color-warning: #FB923C;
+  --color-danger: #EF4444;
+  --color-link: #38BDF8;
 }
 
-@layer components {
-  .btn {
-    @apply bg-gray-500 text-blue-500
-  }
-}
 
 body {
   margin: 0;
