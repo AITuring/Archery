@@ -1,6 +1,23 @@
 {
-  "name": "my-blog",
-  "version": "1.0.0",
+  "name": "meer-ui",
+  "version": "0.3.0",
+  "description": "A React componets library",
+  "main": "main.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AITuring/Meer.git"
+  },
+  "keywords": [
+    "React",
+    "TypeScript",
+    "Vite"
+  ],
+  "author": "AITuring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AITuring/Meer/issues"
+  },
+  "homepage": "https://github.com/AITuring/Meer#readme",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
