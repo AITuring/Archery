@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/index.less';
-import App from './App';
-import Color from './Color';
+import React, { Suspense } from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)

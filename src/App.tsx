@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './components/Button';
+import './App.less';
 
 function App() {
 
@@ -10,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

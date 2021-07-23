@@ -34,7 +34,6 @@
 
 ## TODO
 
-- [ ] vite alias未生效
 
 
 
