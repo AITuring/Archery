@@ -9,6 +9,12 @@ function App() {
     <div className="app">
       <Button>Click me!</Button>
       <Button
+        size={ButtonSize.Large}
+      >Click me!</Button>
+      <Button
+        size={ButtonSize.Small}
+      >Click me!</Button>
+      <Button
         btnType={ButtonType.Primary}
       >Click me!</Button>
       <Button
