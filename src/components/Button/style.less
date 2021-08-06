@@ -1,25 +1,35 @@
+@import '@/style/index.less';
+
 .btn {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
   font-size: @btn-font-size;
-  background-color: @body-bg;
+  background-color: @white;
   color: @body-color;
   line-height: @line-height-base;
   padding: @btn-padding-y @btn-padding-x;
-  border: .12rem solid @gray-300;
+  border: .12rem solid transparent;
+  border-radius: @btn-border-radius;
   margin: 10px;
   cursor: pointer;
-  box-shadow: 8px 8px 20px 0 rgb(55 99 170 / 10%), -8px -8px 20px 0 #fff, inset 0 4px 20px 0 hsl(0deg 0% 100% / 50%);
+  box-shadow: @btn-box-shadow;
+  transition: @btn-transition;
 }
 
 .btn:hover,
 .btn:focus,
 .btn:active {
   color: @primary;
-  border-color: @primary;
+  // border-color: @primary;
 }
 
 .btn-primary {
   background-color: @primary;
-  border-color: @primary;
+  // border-color: @primary;
   color: @gray-50;
 }
 
@@ -28,7 +38,7 @@
 .btn-primary:active {
   color: @gray-50;
   background-color: @blue;
-  border-color: @blue;
+  // border-color: @blue;
 }
 
 .btn-link {

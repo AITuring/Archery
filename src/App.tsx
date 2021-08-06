@@ -8,15 +8,16 @@ function App() {
   return (
     <div className="app">
       <Button>Click me!</Button>
+      <Button disabled>disabled</Button>
       <Button
         size={ButtonSize.Large}
-      >Click me!</Button>
+      >Large</Button>
       <Button
         size={ButtonSize.Small}
-      >Click me!</Button>
+      >Small</Button>
       <Button
         btnType={ButtonType.Primary}
-      >Click me!</Button>
+      >Primary</Button>
       <Button
         btnType={ButtonType.Link}
         href="http://www.google.com"
