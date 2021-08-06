@@ -6,19 +6,13 @@ import { ButtonSize, ButtonType } from './components/Button/type';
 function App() {
 
   return (
-    <div className="App">
+    <div className="app">
+      <Button>Click me!</Button>
       <Button
         btnType={ButtonType.Primary}
-        size={ButtonSize.Large}
-      >Click me!</Button>
-      <Button
-        btnType={ButtonType.Primary}
-        size={ButtonSize.Large}
-        disabled
       >Click me!</Button>
       <Button
         btnType={ButtonType.Link}
-        size={ButtonSize.Large}
         href="http://www.google.com"
       >Google</Button>
     </div>
