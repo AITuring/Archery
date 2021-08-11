@@ -18,6 +18,17 @@
   cursor: pointer;
   box-shadow: @btn-box-shadow;
   transition: @btn-transition;
+
+  &.disabled,
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: .65;
+    box-shadow: none;
+
+    >* {
+      pointer-events: none; // 不接受鼠标事件
+    }
+  }
 }
 
 .btn:hover,
