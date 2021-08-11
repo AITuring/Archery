@@ -7,10 +7,10 @@
   text-align: center;
   vertical-align: middle;
   background-image: none;
-  .button(@btn-padding-y, @btn-padding-x, @btn-font-size, @btn-border-radius);
+  .button-size(@btn-padding-y, @btn-padding-x, @btn-font-size, @btn-border-radius, @line-height-base);
   background-color: @white;
   color: @body-color;
-  line-height: @line-height-base;
+  // line-height: @line-height-base;
   border: .12rem solid transparent;
   border-radius: @btn-border-radius;
   margin: 10px;
@@ -42,17 +42,15 @@
 }
 
 .btn-primary {
-  background-color: @primary;
-  // border-color: @primary;
-  color: @gray-50;
+  .button-style(@primary, @primary, @gray-50);
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  color: @gray-50;
-  background-color: @blue;
-  // border-color: @blue;
+.btn-danger {
+  .button-style(@red, @red, @gray-50);
+}
+
+.btn-default {
+  .button-style(@gray-100, @gray-100, @gray-50);
 }
 
 .btn-link {
@@ -63,13 +61,9 @@
 }
 
 .btn-lg {
-  padding: @btn-padding-y-lg @btn-padding-x-lg;
-  font-size: @btn-font-size-lg;
-  line-height: @line-height-lg;
+  .button-size(@btn-padding-y-lg, @btn-padding-x-lg, @btn-font-size-lg, @btn-border-radius, @line-height-lg);
 }
 
 .btn-sm {
-  padding: @btn-padding-y-sm @btn-padding-x-sm;
-  font-size: @btn-font-size-sm;
-  line-height: @line-height-sm;
+  .button-size(@btn-padding-y-sm, @btn-padding-x-sm, @btn-font-size-sm, @btn-border-radius, @line-height-sm);
 }

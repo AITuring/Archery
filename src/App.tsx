@@ -19,6 +19,12 @@ function App() {
         btnType={ButtonType.Primary}
       >Primary</Button>
       <Button
+        btnType={ButtonType.Danger}
+      >Danger</Button>
+      <Button
+        btnType={ButtonType.Default}
+      >Default</Button>
+      <Button
         btnType={ButtonType.Link}
         href="http://www.google.com"
       >Google</Button>
