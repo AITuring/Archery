@@ -7,11 +7,10 @@
   text-align: center;
   vertical-align: middle;
   background-image: none;
-  font-size: @btn-font-size;
+  .button(@btn-padding-y, @btn-padding-x, @btn-font-size, @btn-border-radius);
   background-color: @white;
   color: @body-color;
   line-height: @line-height-base;
-  padding: @btn-padding-y @btn-padding-x;
   border: .12rem solid transparent;
   border-radius: @btn-border-radius;
   margin: 10px;
@@ -35,7 +34,11 @@
 .btn:focus,
 .btn:active {
   color: @primary;
-  // border-color: @primary;
+
+  &.disabled,
+  &[disabled] {
+    color: @body-color;
+  }
 }
 
 .btn-primary {
