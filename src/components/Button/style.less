@@ -11,7 +11,7 @@
   background-color: @white;
   color: @body-color;
   // line-height: @line-height-base;
-  border: .12rem solid transparent;
+  border: .12rem solid @gray-300;
   border-radius: @btn-border-radius;
   margin: 10px;
   cursor: pointer;
@@ -20,6 +20,7 @@
 
   &.disabled,
   &[disabled] {
+    background-color: @gray-50;
     cursor: not-allowed;
     opacity: .65;
     box-shadow: none;
@@ -34,10 +35,27 @@
 .btn:focus,
 .btn:active {
   color: @primary;
+  border-color: @primary;
 
   &.disabled,
   &[disabled] {
+    background-color: @gray-50;
     color: @body-color;
+    border-color: @gray-300;
+  }
+}
+
+.btn-link {
+  border: none;
+  box-shadow: none;
+  color: @link;
+  text-decoration: none;
+
+  &:disabled,
+  &.disabled {
+    background-color: @body-bg;
+    pointer-events: none;
+    cursor: not-allowed;
   }
 }
 
@@ -50,14 +68,7 @@
 }
 
 .btn-default {
-  .button-style(@gray-100, @gray-100, @gray-50);
-}
-
-.btn-link {
-  border: none;
-  box-shadow: none;
-  color: @link;
-  text-decoration: none;
+  .button-style(@gray-600, @gray-100, @gray-50);
 }
 
 .btn-lg {
