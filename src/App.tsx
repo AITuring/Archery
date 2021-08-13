@@ -7,8 +7,8 @@ import { ButtonSize, ButtonType } from './components/Button/type';
 function App() {
   return (
     <div className="app">
-      <Button>最普通</Button>
-      <Button>Today</Button>
+      <Button autoFocus onClick={() => alert(111)}>最普通</Button>
+      <Button className="test">Today</Button>
       <Button disabled>disabled</Button>
       <Button size={ButtonSize.Large}>Large</Button>
       <Button size={ButtonSize.Small}>Small</Button>

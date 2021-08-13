@@ -11,7 +11,7 @@ export enum ButtonType {
   Outline = 'outline'
 }
 
-export interface ButtonProps {
+export interface BaseButtonProps {
   className?: string;
   disabled?: boolean;
   loading?: boolean;
@@ -20,3 +20,9 @@ export interface ButtonProps {
   children?: React.ReactNode;
   href?: string;
 }
+
+type NativeButtonProps = BaseButtonProps & React.ButtonHTMLAttributes<HTMLButtonElement>;
+
+type AnchorButtonProps = BaseButtonProps & React.AnchorHTMLAttributes<HTMLAnchorElement>;
+
+export type ButtonProps = Partial<NativeButtonProps & AnchorButtonProps>;
