@@ -5,7 +5,7 @@
   "main": "main.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AITuring/Meer.git"
+    "url": "git+https://github.com/AITuring/Archery.git"
   },
   "keywords": [
     "React",
@@ -15,9 +15,9 @@
   "author": "AITuring",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AITuring/Meer/issues"
+    "url": "https://github.com/AITuring/Archery/issues"
   },
-  "homepage": "https://github.com/AITuring/Meer#readme",
+  "homepage": "https://github.com/AITuring/Archery#readme",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
