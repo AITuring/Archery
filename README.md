@@ -1,8 +1,8 @@
-# 🏹Archery
+# 🏹 Archery
 
 <div align=center><img src="./assets/archery.gif" width="100px"/></div>
 
-![npm](https://img.shields.io/npm/v/meer-ui?color=blue)
+<!-- ![npm](https://img.shields.io/npm/v/meer-ui?color=blue) -->
 
 <div align=center><img src="./assets/sports.gif" width="400px"/></div>
 
