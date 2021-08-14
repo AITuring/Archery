@@ -6,7 +6,7 @@ import './style.less';
 
 const Button: FC<ButtonProps> = (props) => {
   const {
-    type,
+    btnType,
     className,
     size,
     disabled,
@@ -18,12 +18,12 @@ const Button: FC<ButtonProps> = (props) => {
 
   // btn btn-lg btn-primary
   const cls = classNames('btn', className, {
-    [`btn-${type}`]: type,
+    [`btn-${btnType}`]: btnType,
     [`btn-${size}`]: size,
     'disabled': disabled,
   })
 
-  if (type === ButtonType.Link && href) {
+  if (btnType === ButtonType.Link && href) {
     return (
       <a href={href} className={cls} {...restProps}>{children}</a>
     )

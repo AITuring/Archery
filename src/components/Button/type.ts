@@ -16,7 +16,7 @@ export interface BaseButtonProps {
   disabled?: boolean;
   loading?: boolean;
   size?: string | ButtonSize;
-  type?: string | ButtonType;
+  btnType?: string | ButtonType;
   children?: React.ReactNode;
   href?: string;
 }
