@@ -1,12 +1,11 @@
-# 🌊 Meer
+# 🏹Archery
 
-<div align=center><img src="./assets/sea3.png" width="100px"/></div>
+<div align=center><img src="./assets/archery.gif" width="100px"/></div>
 
 ![npm](https://img.shields.io/npm/v/meer-ui?color=blue)
 
-**Meer** `[me:ɐ]`
+<div align=center><img src="./assets/sports.gif" width="400px"/></div>
 
-德语海洋之意。希望这个组件库能从涓涓细流变成汪洋。
 
 ## 📚目录结构
 
